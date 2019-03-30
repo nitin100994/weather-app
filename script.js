@@ -21,7 +21,7 @@ function success(pos) {
         var placeName = document.getElementById("place-name");
         var temprature = document.getElementById("temprature");
         var weatherType = document.getElementById("weather-type");
-        placeName.innerHTML = data.name; 
+        placeName.innerHTML = data.name+", "+data.sys.country; 
         temprature.innerHTML = data.main.temp; 
         var append = $("<sup>  &#8728;</sup>");
         $('#temprature').append(append);
