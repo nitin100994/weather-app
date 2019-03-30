@@ -1,0 +1,33 @@
+h1{
+    font-size: 60px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+
+.main-bg{
+    background: #161616;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header-text{
+    color: #ff9800;
+}
+
+.text-center{
+    text-align: center;
+}
+.weather-details{
+    margin-top: 50px;
+}
+
+.inspire-text{
+    margin-top: 40px;
+}
+
+.inspire-text>span{
+    color: #008496;
+    font-weight: 700;
+}
