@@ -2,8 +2,18 @@ h1{
     font-size: 60px;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,span{
     color: white;
+}
+
+#temprature,#temp-unit{
+    text-align: center;
+    font-size: 30px ;
+}
+
+#temp-unit{
+    color: #008496;
+    cursor: pointer;
 }
 
 .main-bg{
